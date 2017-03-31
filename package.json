@@ -1,0 +1,35 @@
+{
+  "name": "flatten-red-black-tree",
+  "version": "0.0.1",
+  "description": "Red Black Tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "generate-docs": "jsdoc -t ./node_modules/jsdoc/templates/minami -d ./docs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbol99/flatten-red-black-tree.git"
+  },
+  "keywords": [
+    "binary",
+    "tree",
+    "search",
+    "tree",
+    "red-black",
+    "tree",
+    "rb",
+    "tree"
+  ],
+  "author": "“Alex <“alexbol99@gmail.com”> (“https://github.com/alexbol99/flatten-red-black-tree)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexbol99/flatten-red-black-tree/issues"
+  },
+  "homepage": "https://github.com/alexbol99/flatten-red-black-tree#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
+
