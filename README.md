@@ -4,7 +4,7 @@ Classic red-black tree implementation.
 
 ## Installation
 
-    npm --install flatten-red-black-tree -save
+    npm install flatten-red-black-tree -save
 
 ## Usage
 
@@ -27,7 +27,7 @@ Classic red-black tree implementation.
     // remove entry
     tree.remove(key);
 
-    See API reference in docs: https://alexbol99.github.io/flatten-red-black-tree/index.html
+See API reference in docs: https://alexbol99.github.io/flatten-red-black-tree/index.html
 
 ## Tests
 
