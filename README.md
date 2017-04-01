@@ -9,25 +9,26 @@ Classic red-black tree implementation.
 ## Usage
 
     // require package
-      // NOTE: parenthesis are important for traits injection
-    let RedBlackTree = require('flatten-red-black-tree')();
+    let RedBlackTree = require('flatten-red-black-tree')(); //<--- parenthesis are important
 
     // create new instance of red-black tree
     let tree = new RedBlackTree();
 
-    // insert {key, value} entry, value is obsolete
+    // insert {key, value} entry
     let key = "abcd";
     let value = 5;
     tree.insert(key,value);
 
+    // check size
     console.log(tree.size);      // tree.size = 1
+    
     // retrieve value
     let resp = tree.find(key);   // resp = 5
 
     // remove entry
     tree.remove(key);
 
-See API reference in docs: https://alexbol99.github.io/flatten-red-black-tree/index.html
+See API reference here: https://alexbol99.github.io/flatten-red-black-tree/index.html
 
 ## Tests
 
